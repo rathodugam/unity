@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="34x34">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unity</title>
+  
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.3/swiper-bundle.css">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+<header class="header-main">   
+
+    <div class="header-top-part bg-blue">
+
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/unity-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="gestures.html">Gestures</a>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link" href="donations.html">Donations</a>
+                </li> -->
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    My Account
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="business-profile.html">Business Profile</a></li>
+                    <li><a class="dropdown-item" href="donator-profile.html">Donator Profile</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <div class="site-btn-1 btn-common">
+                    <a href="login.html">SignUp/Login</a>
+                </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+    </div>
+
+    <div class="bottom-top-part">
+        <div class="container">
+            <div class="bottom-part-wrap">
+                
+                <div class="left-search">
+                    <input type="search" name="search" placeholder="Search">
+                    <button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="right-social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    
+                </ul>
+                <!-- <div class="shopping_cart">
+                    <a href="cart.html"><img src="images/shopping-bag.png" alt=""></a>
+                    <span class="bedge">0</span>
+                </div> -->
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+</header>
+
+<section class="checkout d-padding">
+    <div class="container">
+        <h2 class="text-center mb-5">Checkout</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="billing_detail">
+                    <h4 class="mb-3">Billing details</h4>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" value="Ben">
+                                    <label for="FirstName">First Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" value="Daly">
+                                    <label for="LastName">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" placeholder="Company Name">
+                                    <label for="CompanyName">Company Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" value="United Kingdom (UK)">
+                                    <label for="Country">Country</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" placeholder="Street Address">
+                                    <label for="StreetAddress">Street address</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" placeholder="Town / City">
+                                    <label for="Town">Town / City</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" placeholder="Postcode">
+                                    <label for="Postcode">Postcode</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" value="0123 456 789">
+                                    <label for="PhoneNumber">Phone Number</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" value="bendaly@gmail.com">
+                                    <label for="EmailAddress">Email Address</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Ship to a different address?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" value="Ben">
+                                        <label for="FirstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" value="Daly">
+                                        <label for="LastName">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" placeholder="Company Name">
+                                        <label for="CompanyName">Company Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" value="United Kingdom (UK)">
+                                        <label for="Country">Country</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" placeholder="Street Address">
+                                        <label for="StreetAddress">Street address</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" placeholder="Town / City">
+                                        <label for="Town">Town / City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" placeholder="Postcode">
+                                        <label for="Postcode">Postcode</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order_note">
+                    <div class="form-floating mb-3 mt-4">
+                        <textarea class="form-control" placeholder="Order notes (optional)" rows="5"></textarea>
+                        <label for="Ordernotes">Order notes (optional)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="subtotal_wrapp pb-5">
+    <div class="container">
+        <h4 class="mb-3">Your Order</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="subtotal_wrapp_inner">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>PRODUCT</th>
+                                <th class="text-end">SUBTOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dumb Blonde Roast Cofee</td>
+                                <td class="text-end">$20.00</td>
+                            </tr>
+                            <tr>
+                                <td>Big Tasty with Bacon</td>
+                                <td class="text-end">$20.00</td>
+                            </tr>
+                            <tr>
+                                <td>2 Beds at Mattison Center</td>
+                                <td class="text-end">$20.00</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="text-end" width="80%"><b>Subtotal</b></td>
+                                <td class="text-end">$60.00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end" width="80%"><b>Shipping</b></td>
+                                <td class="text-end">Free Shipping</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end" width="80%"><b>Total</b></td>
+                                <td class="text-end"><b>$60.00</b></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="payment_wrapp pb-5">
+    <div class="container">
+        <div class="payment_wrapp_inner p-4">
+            <label for="payment_method_paypal"> PayPal <img src="images/payment-card.png" alt="PayPal acceptance mark"> </label>
+            <div class="payment_box payment_method_paypal">
+                <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+            </div>
+            <div class="site-btn-4 btn-common text-end mt-4">
+              <a href="#">Proceed to Paypal</a>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="site-footer bg-blue">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1 col">
+                <div class="footer-wrap">
+                    
+                    <a href="#">
+                        <img src="images/unity-logo.png">
+                    </a>
+  
+                    <div class="footer-text footer-common-gap">
+                        <p>Harum distinctio pariatur ad asperiores praesent, viverra sociosqu omnis! Ante, leo sem? Ipsam blanditiis quae tincidunt, wisi nulla blanditiis non? Eget repellat debitis laborum.</p>
+                    </div>
+                    
+  
+                    <div class="right-social footer-common-gap">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                          
+                        </ul>
+                    </div>
+  
+                    <div class="footer-copyrights footer-common-gap">
+                        <p>Copyright © Unity All rights reserved</p>
+                    </div>
+  
+                </div>
+            </div>
+  
+            <div class="footer-col-2 col">
+                <div class="footer-wrap footer-menu">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="Gestures.html">Gestures</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <!-- <li><a href="donations.html">Donation</a></li> -->
+                        <li><a href="donator-profile.html">My Donation</a></li>
+                        <li><a href="donators.html">Donators</a></li>
+                    </ul>
+                </div>
+            </div>
+  
+            <div class="footer-col-3 col">
+                <div class="footer-wrap footer-menu">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="faq.html">Faq's</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+  
+            <div class="footer-col-4 col">
+                <div class="footer-wrap footer-menu">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+  
+            <div class="footer-col-5 col">
+                <div class="footer-wrap">
+                    <div class="site-btn-1 btn-common">
+                        <a href="register.html">Sign Up</a>
+                    </div>
+                    <div class="site-btn-2 btn-common mtop-15">
+                        <a href="register.html">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+  
+  
+        </div>
+    </div>
+    
+</footer>
+    
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.3/swiper-bundle.min.js"></script>
+  
+  <script type="text/javascript" src="js/main.js"></script>
+  
+  </body>
+  </html>
